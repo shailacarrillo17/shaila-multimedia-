@@ -1,0 +1,59 @@
+body {
+    background-color: aliceblue;
+    position: inherit;
+}
+
+.parrafo {
+    color: blue (125, 110, 235 );
+    background-color: aliceblue;
+}
+
+#parrafoUnico {
+    color: rgb;
+}
+
+#contenedor1 {
+    width: 45vw;
+    height: 80vh;
+    border: 1px solid green ;
+    margin: 15px;
+    position: relative; 
+}
+
+.cuadrado { 
+    width: 25%;
+    height: 25%;
+    background-color: rgb(3, 154, 255); 
+    border: 1px solid green;
+    position: absolute;
+}
+
+
+#cuadro1 {
+    top: 0%;
+    left: 0%;
+}
+
+#cuadro2{
+    top: 25%;
+    left: 25%;
+}
+#cuadro3{
+    top: 50%;
+    left: 50%;
+}
+
+#contenedor2 {
+    width: 45vw;
+    height: 50vh;
+    border: 1px solid green;
+    margin: 15px ;
+    display: flex;
+}
+
+.cuadrado7{
+    width: 25%;
+    height: 25%;
+    background-color: rgb(3, 154, 255);
+    border: 1px solid green;
+}
