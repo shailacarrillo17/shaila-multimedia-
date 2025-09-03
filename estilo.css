@@ -1,6 +1,20 @@
+@import url('https:fonts.googleapis.com/css2?family=Story+Script&display=swap');
 body {
     background-color: aliceblue;
     position: inherit;
+
+}
+.titulo {
+    font-family: "story Script", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 5em;
+}
+
+.titulo:hover {
+    font-weight: 300;
+    color: blueviolet(3, 154, 255);
+    cursor: pointer;
 }
 
 .parrafo {
