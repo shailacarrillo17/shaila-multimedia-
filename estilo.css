@@ -1,155 +1,26 @@
-@import url('https:fonts.googleapis.com/css2?family=Story+Script&display=swap');
 body {
-    background-color: aliceblue;
-    position: inherit;
-
-}
-.titulo {
-    font-family: "story Script", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 5em;
+    margin: 0;
+  height: 300vh;
+  background-color: rgba(255, 123, 0, 0.579); /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgba(246, 179, 22, 0.803), rgba(243, 243, 24, 0.79), rgba(225, 31, 14, 0.853), rgb(225, 102, 14), rgba(108, 201, 244, 0.678), rgba(25, 44, 188, 0.909), rgba(25, 44, 188, 0.9090), rgba(0, 51, 128, 0.88), rgb(4, 4, 63));
+  background-repeat: no-repeat;
 }
 
-.titulo:hover {
-    font-weight: 300;
-    color: blueviolet(3, 154, 255);
-    cursor: pointer;
+    #grad1 {
+  height: 900px;
+  background-color: rgba(255, 123, 0, 0.579); /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgba(246, 179, 22, 0.803), rgba(243, 243, 24, 0.79), rgba(225, 31, 14, 0.853));
+  margin: 0;
 }
 
-.parrafo {
-    color: blue (125, 110, 235 );
-    background-color: aliceblue;
+#grad2 {
+  height: 900px;
+  background-color: rgba(14, 53, 225, 0.853); /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(225, 102, 14), rgba(108, 201, 244, 0.678), rgba(25, 44, 188, 0.909));
 }
 
-#parrafoUnico {
-    color: rgb;
-}
-
-#contenedor1 {
-    width: 45vw;
-    height: 80vh;
-    border: 1px solid green ;
-    margin: 15px;
-    position: relative; 
-}
-
-.cuadrado { 
-    width: 25%;
-    height: 25%;
-    background-color: rgb(3, 154, 255); 
-    border: 1px solid green;
-    position: absolute;
-}
-
-
-#cuadro1 {
-    top: 0%;
-    left: 0%;
-}
-
-#cuadro2{
-    top: 25%;
-    left: 25%;
-}
-#cuadro3{
-    top: 50%;
-    left: 50%;
-}
-
-#contenedor2 {
-    width: 45vw;
-    height: 50vh;
-    border: 1px solid green;
-    margin: 15px ;
-    display: flex;
-}
-
-.cuadrado7{
-    width: 25%;
-    height: 25%;
-    background-color: rgb(3, 154, 255);
-    border: 1px solid green;
-}
-
-#lienzo {
-width: 800px;
-height: 500px;
-background-image: url("https://www.semana.com/resizer/v2/INJTUCZGY5ARXAFKOOTNCI2HIY.jpg?auth=7dd4831e3169455e41f87cdfa0f0908d097744f5c1c3315853f582504f3c9578&smart=true&quality=75&width=1280&height=720"); 
-background-repeat: no-repeat;
-background-size:  cover;
-border: 1px solid black;
-margin: 0 auto;
-position: relative;
-}
-
-.circulo {
-    width: 60px; /* ancho */
-    height: 50px; /* alto */
-    background-color: rgb(27, 212204, 209); /* color de fondo */
-    border-radius: 50%; /* redondea los bordes de la figura*/
-    border: 3px solid black; /* borde de la figura: grosor, estilo, color */
-    position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
-    top: 100px; /* posición desde el borde superior del lienzo */
-    left: 380px; /* posición desde el borde izquierdo del lienzo */
-}
-
-#circulo2 {
-     width: 60px; /* ancho */
-    height: 50px; /* alto */
-    background-color: rgb(24, 214, 208); /* color de fondo */
-    border: 3px solid black; /* borde de la figura: grosor, estilo, color */
-    top: 150px; /* posición desde el borde superior del lienzo */
-    left: 540px; /* posición desde el borde izquierdo del lienzo */
-    transform: rotate(20);
-}
-
-
-.cuadrado {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(251, 230, 0);
-    position: absolute;
-    top: 20px;
-    left: 120px;
-}
- 
-/* línea hecha con border*/
-.lineaHorizontal {
-    width: 300px;
-    height: 0px;
-    border: 5px solid rgb(255, 0, 0); /* borde de la figura: grosor, estilo, color */
-    position: absolute;
-    top: 8px;
-    left: 300px;
-}
-
-#lineaHorizontal2 {
-    width: 100px;
-    height: 0px;
-    border: 3px solid rgb(255, 0, 0); /* borde de la figura: grosor, estilo, color */
-    position: absolute;
-    top: 50px;
-    left: 250px;
-}
-
-/* línea hecha con border*/
-.lineaVertical {
-    width: 0px;
-    height: 150px;
-    border: 3px solid rgb(0, 140, 255); /* borde de la figura: grosor, estilo, color */
-    position: absolute;
-    top: 300px;
-    left: 550px;
-    transform: rotate(45deg);
-}
-
-.lineaVertical {
-    width: 0px;
-    height: 150px;
-    border: 3px solid rgb(0, 140, 255); /* borde de la figura: grosor, estilo, color */
-    position: absolute;
-    top: 300px;
-    left: 550px;
-    transform: rotate(45deg);
+#grad3 {
+  height: 900px;
+  background-color: rgba(25, 44, 188, 0.909) ; /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgba(25, 44, 188, 0.9090), rgba(0, 51, 128, 0.88) 85%, rgb(4, 4, 63) 90%);
 }
