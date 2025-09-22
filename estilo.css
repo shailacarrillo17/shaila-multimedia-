@@ -1,10 +1,10 @@
 body {
-    margin: 0;
-  height: 400vh;
-  background-color: rgba(255, 123, 0, 0.579); /* For browsers that do not support gradients */
+  margin: 0;
+  height: 600vh;
+  background-color: rgb(4, 4, 63); /* For browsers that do not support gradients */
   background-image: linear-gradient(rgba(246, 179, 22, 0.803), rgba(243, 243, 24, 0.79), rgba(225, 31, 14, 0.853), rgb(225, 102, 14), rgba(108, 201, 244, 0.678), rgba(25, 44, 188, 0.909), rgba(25, 44, 188, 0.9090), rgba(0, 51, 128, 0.88), rgb(4, 4, 63));
-  background-repeat: repeat;
-  background-size: 100cqb;
+  background-repeat: no-repeat;
+  background-size: 100vw 400vh;
 }
 
 #estrella {
@@ -14,11 +14,76 @@ body {
  position: fixed;
  bottom: 0;
  background-position-y: bottom;
+ pointer-events: none;
 }
 
+#mañana {
+  height: 200vh;
+}
+
+#tarde {
+  height: 200vh;
+}
+
+#noche {
+  height: 200vh;
+}
    
-#audio1 {
+.audio {
   opacity: 0;
-
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Notable&display=swap');
+ html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+h2 {
+  font-size: 2.3em;
+}
+
+#contenedor {
+  margin: auto 1em;
+  text-align: center;
+}
+
+#tituloPagina { 
+
+  font-family: "Mozilla Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+  margin-top: 1em;
+  margin-bottom: 0;
+  font-family: sans-serif;
+  
+}
+
+#foto {
+ height: 900px; 
+ width: 900px;
+ border: solid 5px;
+ border-radius: 100px;
+ margin-top: 60px;
+}
+
+.tituloPrediccion {
+  font-size: 1.5em;
+  }
+
+.prediccion {
+  font-size: 2em;
+}
+
+.prediccion::first-letter {
+  text-transform: uppercase;
+}
+
+#boton {
+  font-size: 0.9em;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
