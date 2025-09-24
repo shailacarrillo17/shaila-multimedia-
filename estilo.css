@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Barrio&family=IM+Fell+English+SC&display=swap');
+
 body {
   margin: 0;
   height: 600vh;
@@ -23,6 +27,7 @@ body {
 
 #tarde {
   height: 200vh;
+  
 }
 
 #noche {
@@ -33,11 +38,6 @@ body {
   opacity: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Notable&display=swap');
- html {
-  box-sizing: border-box;
-  height: 100%;
-}
 
 h2 {
   font-size: 2.3em;
@@ -48,18 +48,14 @@ h2 {
   text-align: center;
 }
 
-#tituloPagina { 
-
-  font-family: "Mozilla Headline", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-
-  margin-top: 1em;
+#tituloPagina {
+  margin-top: 5em;
   margin-bottom: 0;
-  font-family: sans-serif;
-  
+   font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4em;
+  color: beige;
 }
 
 #foto {
@@ -70,12 +66,50 @@ h2 {
  margin-top: 60px;
 }
 
-.tituloPrediccion {
+#foto2 {
+ height: 900px; 
+ width: 900px;
+ border: solid 5px;
+ border-radius: 100px;
+ margin-top: 60px;
+}
+
+#foto3 {
+ height: 900px; 
+ width: 900px;
+ border: solid 5px;
+ border-radius: 100px;
+ margin-top: 60px;
+}
+
+#titulo1 {
+  font-size: 1.5em;
+color: aliceblue;
+  }
+
+#prediccion1 {
+  font-size: 2em;
+  color: aliceblue;
+}
+#prediccion2 {
+  color: aliceblue;
   font-size: 1.5em;
   }
 
-.prediccion {
+#titulo2 {
+  color: aliceblue;
   font-size: 2em;
+
+}
+#prediccion3 {
+  color: aliceblue;
+  font-size: 1.5em;
+  }
+
+#titulo3 {
+  color: aliceblue;
+  font-size: 2em;
+
 }
 
 .prediccion::first-letter {
